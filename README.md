@@ -9,6 +9,18 @@ It tests user authentication with various credentials and verifies login success
 * Test reporting with Playwright
 
 
+## Issues Encountered:
+
+* Locked Out User: The “locked_out_user” account failed to log in as expected.
+* Performance Issue: The “performance_glitch_user” experienced noticeable delays.
+
+These issues were not fixed intentionally, as the purpose of this challenge was to test and report findings rather than modify the application behavior.
+
+## Test Report
+
+The test results, including logs and assertions, are available in reports/report.html.
+
+
 ## Sources & References:
 * Playwright Documentation (https://playwright.dev/docs/intro)
 * Playwright API Reference (https://playwright.dev/docs/api/class-page)
