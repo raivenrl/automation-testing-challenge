@@ -8,13 +8,18 @@ It tests user authentication with various credentials and verifies login success
 * Assertions to check successful and unsuccessful login attempts
 * Test reporting with Playwright
 
+## Technologies Used
+
+* Node.js 
+* Playwright 
+* Cucumber.js
 
 ## Issues Encountered:
 
 * Locked Out User: The “locked_out_user” account failed to log in as expected.
 * Performance Issue: The “performance_glitch_user” experienced noticeable delays.
 
-These issues were not fixed intentionally, as the purpose of this challenge was to test and report findings rather than modify the application behavior.
+These issues were not fixed intentionally, as the purpose of this challenge was to test and report findings.
 
 ## Test Report
 
